@@ -50,4 +50,12 @@ func main() {
 	fmt.Println(myOrder2.getStatus())
 
 	fmt.Println(myOrder2)
+
+	// one time usage struct
+	language := struct {
+		name string
+		isGood bool
+	} {"Golang", true}
+
+	fmt.Println(language)
 }
