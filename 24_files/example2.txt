@@ -1,0 +1,1 @@
+Hello, Golang. It is a good language.
